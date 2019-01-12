@@ -1,0 +1,31 @@
+server:
+  servlet:
+    context-path: /member
+mybatis:
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  
+logging:
+  config: classpath:logback-boot.xml
+test: this is test44
+
+management:
+  security: 
+    enabled: false
+eureka:
+  instance:
+    prefer-ip-address: true
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd HH:mm
+    time-zone: GMT+8
+  application:
+    name: member
+    
+#  rabbitmq:
+#    host: 192.168.0.112
+#    port: 5672
+#    username: springcloud
+#    password: 111111
