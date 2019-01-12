@@ -1,0 +1,25 @@
+server:
+  servlet:
+    context-path: /qas
+mybatis:
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  
+#logging:
+  #config: classpath:logback-boot.xml
+test: this is test 
+
+management:
+  security: 
+    enabled: false
+eureka:
+  instance:
+    prefer-ip-address: true
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd HH:mm
+    time-zone: GMT+8
+  application:
+    name: eureka-qas
