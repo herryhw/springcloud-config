@@ -22,4 +22,4 @@ spring:
     date-format: yyyy-MM-dd HH:mm
     time-zone: GMT+8
   application:
-    name: eureka-qas
+    name: qas

@@ -22,7 +22,7 @@ spring:
     date-format: yyyy-MM-dd HH:mm
     time-zone: GMT+8
   application:
-    name: eureka-member
+    name: member
     
 #  rabbitmq:
 #    host: 192.168.0.112
